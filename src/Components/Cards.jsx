@@ -9,8 +9,8 @@ export default function Cards() {
             <h3>Card {count}</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             <button className="card-button" onClick={()=>{setVal(count + 1)}}>Increment</button>
-            <button className="card-button" onClick={()=>{setVal(count - 1)}}>Decrement</button>
-            <button className="card-button" onClick={()=>{setVal(0)}}>Default</button>
+            {/* <button className="card-button" onClick={()=>{setVal(count - 1)}}>Decrement</button>
+            <button className="card-button" onClick={()=>{setVal(0)}}>Default</button> */}
         </div>
         <div className="card">
             <h3>Card 2</h3>
