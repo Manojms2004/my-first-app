@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    padding: 25px;
+    background-color: #89bdf1;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #343a40;
+}
+
+/* Footer styles */
+footer {
+    padding: 28px;
+    background-color: #89bdf1;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #6c757d;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    background-color: rgb(75, 73, 71);
+}
+
+/* Heading component styles */
+.heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading h2 {
+    margin: 0;
+    color: #007bff;
+    background-color: white;
+}
+
+/* Cards component styles */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid white;
+    width: 20%;
+    height: 7cm;
+    text-align: center;
+    background-color: #007bff;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: black;
+}
+
+.card p {
+    color: rgb(255, 255, 255);
+}
+
+/* Form component styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    margin-bottom: 15px;
+}
+
+form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+/* Button styles within cards */
+
+.card-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: 2px solid black;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0ee63d;
+}
+.myClass{
+    color: red;
+    width: 4cm;
+    height: 2cm;
+    background-color: #0ee63d;
+    text-align: center;
+    font-size: 30px;
+}
